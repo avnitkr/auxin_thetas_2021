@@ -1,3 +1,4 @@
+#here, a sliding window analysis is performed to compute diversity estimates for one contig and all the populations; with a window size of 1000bp and step size of 100 bp. 
 #!/bin/bash
 #PBS -l ncpus=10
 #PBS -l mem=100GB
