@@ -1,3 +1,6 @@
+#Here, to compute allele frequencies probabilities, SFS is used as prior from 2_.
+#This script will compute the allele frequency posterior probabilities and associated statistics (-doThetas) using the SFS as prior information (-pest) for all populations
+
 #!/bin/bash
 #PBS -l ncpus=10
 #PBS -l mem=100GB
