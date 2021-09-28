@@ -1,3 +1,4 @@
+#this script will report the diversity indexes(pi,D and theta watterson) for the one contig
 #!/bin/bash
 #PBS -l ncpus=10
 #PBS -l mem=100GB
