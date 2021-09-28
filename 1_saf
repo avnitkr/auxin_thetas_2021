@@ -1,3 +1,8 @@
+#this script creates saf file for each population 
+#the saf file is fed as input to compute site frequency spectrum
+#the script works on one contig ( in this case - contig contatining highly parallel gene)
+#replace the contig in the region flag (-r) to calculate saf for other contigs.
+
 #!/bin/bash
 #PBS -l ncpus=10
 #PBS -l mem=100GB
@@ -14,6 +19,9 @@ DIR=/g/data/ht96/Avneet_UQ/robin/bam_paths
 ANGSD=/home/564/ak2993/angsd/
 
 ANC=/g/data/ht96/Avneet_UQ/robin/reference/Senecio.contigs.fasta
+
+#doSaf because we don't want to filter on maf for thetas calculation
+#only T watterson and Taj D are interpretable if anc is the ref genome
 
 for POP in G AG H01 D01 H02 D03 H05 D04
 
