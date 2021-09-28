@@ -1,3 +1,7 @@
+#this script will estimate the site frequency spectrum for each population separately; with 50 iteartions
+#for one contig; change inpout saf.idx file to compute sfs for other contigs
+
+
 #!/bin/bash
 #PBS -l ncpus=10
 #PBS -l mem=100GB
