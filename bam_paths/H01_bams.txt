@@ -1,0 +1,10 @@
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-201-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-212-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-250-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-231-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-243-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-219-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-259-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-289-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-224-merged-mdup-sorted-realigned.bam
+/g/data/ht96/Avneet_UQ/robin/bams_natural/H01/H01-248-merged-mdup-sorted-realigned.bam
