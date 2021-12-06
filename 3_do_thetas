@@ -18,13 +18,15 @@ ANGSD=/home/564/ak2993/angsd/
 
 ANC=/g/data/ht96/Avneet_UQ/robin/reference/Senecio.contigs.fasta
 
+REGION=/g/data/ht96/Avneet_UQ/robin_contigs/contigs.txt
+
 for POP in G AG H01 D01 H02 D03 H05 D04
 
 do
 
     echo $POP
      ${ANGSD}/angsd -P 10 -dosaf 1 -doThetas 1 -GL 2 -doMajorMinor 1 -underFlowProtect 1 \
-                    -anc $ANC -r tig00125552 -remove_bads 1 -minMapQ 30 -minQ 20 \
+                    -anc $ANC -rf $REGION -remove_bads 1 -minMapQ 30 -minQ 20 \
                     -b $DIR/$POP'_bams.txt' \
                     -pest /g/data/ht96/Avneet_UQ/robin/'thetas_'$POP/sfs/$POP'_CONTIG_1'.sfs \
                     -out /g/data/ht96/Avneet_UQ/robin/'thetas_'$POP/do_thetas/$POP'_CONTIG_1'
