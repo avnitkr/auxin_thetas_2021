@@ -20,6 +20,8 @@ ANGSD=/home/564/ak2993/angsd/
 
 ANC=/g/data/ht96/Avneet_UQ/robin/reference/Senecio.contigs.fasta
 
+REGION=/g/data/ht96/Avneet_UQ/robin_contigs/contigs.txt
+
 #doSaf because we don't want to filter on maf for thetas calculation
 #only T watterson and Taj D are interpretable if anc is the ref genome
 
@@ -28,7 +30,7 @@ for POP in G AG H01 D01 H02 D03 H05 D04
 do
 
     echo $POP
-    ${ANGSD}/angsd -b $DIR/$POP'_bams.txt' -anc $ANC -r tig00125552 -out /g/data/ht96/Avneet_UQ/robin/'thetas_'$POP/saf/$POP'_CONTIG_1' \
+    ${ANGSD}/angsd -b $DIR/$POP'_bams.txt' -anc $ANC -rf $REGION -out /g/data/ht96/Avneet_UQ/robin/'thetas_'$POP/saf/$POP'_CONTIG_1' \
                    -remove_bads 1 \
                    -minMapQ 30 -minQ 20 -doCounts 1 \
                    -GL 2 -doSaf 1 -doMajorMinor 1 -nThreads 10 -underFlowProtect 1
